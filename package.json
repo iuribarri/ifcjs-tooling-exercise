@@ -1,0 +1,24 @@
+{
+  "name": "ifcjs-tooling-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuribarri/ifcjs-tooling-exercise.git"
+  },
+  "author": "iuribarri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iuribarri/ifcjs-tooling-exercise/issues"
+  },
+  "homepage": "https://github.com/iuribarri/ifcjs-tooling-exercise#readme",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.12.0"
+  }
+}
